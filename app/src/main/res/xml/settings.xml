@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="@string/gameplay_header">
+
+        <SwitchPreferenceCompat
+            app:key="menu_save"
+            app:summaryOff="@string/save_summary_off"
+            app:summaryOn="@string/save_summary_on"
+            app:title="@string/save_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="@string/appearance_header">
+        <SwitchPreferenceCompat
+            app:key="menu_theme"
+            app:title="@string/theme_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

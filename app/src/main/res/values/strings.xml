@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+    <string name="computerName">Computer</string>
+    <string name="YouName">You</string>
+    <string name="instructions">Choose rock, paper or scissors.</string>
+    <string name="rock">ROCK</string>
+    <string name="paper">PAPER</string>
+    <string name="scissors">SCISSORS</string>
+    <string name="settings">Settings</string>
+    <string name="statistics">Statistics</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="recordMin">Record in last minute (W-L-T)</string>
+    <string name="allTimeRecord">All-time record (W-L-T)</string>
+    <string name="resetStats">Reset statistics</string>
+    <string name="reset">RESET</string>
+    <string name="notificationName">The game is waiting for you</string>
+    <string name="notificationDetails">Keep on playing! You know you want to!</string>
+    <!-- Preference Titles -->
+    <string name="appearance_header">Appearance</string>
+    <string name="gameplay_header">Gameplay</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="theme_title">Dark Theme</string>
+    <string name="save_title">Save game on close</string>
+    <string name="save_summary_on">inputs will be saved on reopen of app
+    </string>
+    <string name="save_summary_off">inputs will not be saved on reopen of app</string>
+    <string name="title_activity_statistics">Statistics</string>
+</resources>

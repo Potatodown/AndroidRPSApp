@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/gameplay_header">
+
+        <SwitchPreferenceCompat
+            app:key="menu_save"
+            app:summaryOff="@string/save_summary_off"
+            app:summaryOn="@string/save_summary_on"
+            app:title="@string/save_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/appearance_header">
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/theme_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
